@@ -1,0 +1,104 @@
+
+测试供货商：
+经销：
+	供货商：400052(娇韵诗化妆品)//测试使用SPJZ001商场，供货商自己选，传递的时候，供货商选择这两个。
+	合同号：10100005
+联营：
+	供货商：500782(蔻驰贸易（上海）有限公司)
+	合同号：30100690
+	
+{
+	"FUNCNAME": "WRITE_FY_LGB",
+	"args": {
+		"DJBH_LGB": "205",
+		"FDBH": "1",
+		"DJLX": "2",
+		"YEARMONTH": "201805",
+		"WLDW": "400052",
+		"HTH": "10100005",
+		"BZ": "测试经销物料领用货扣",
+		"DJBH": "205",
+		"DJBJ_LGB_OLD": "205",
+		"BJ_WL": "0",
+		"pFY_LGBLIST": [{
+				"DJBH_LGB": "205",
+				"SFXMID": "3000",
+				"JE": "0.5",
+				"FYR": "张三",
+				"PJH": "100008"
+			}
+		],
+		"pFY_LGB_WLMXLIST": []
+	}
+}
+
+{
+	"FUNCNAME": "WRITE_FY_LGB",
+	"args": {
+		"DJBH_LGB": "206",
+		"FDBH": "1",
+		"DJLX": "1",
+		"YEARMONTH": "201805",
+		"WLDW": "500782",
+		"HTH": "30100690",
+		"BZ": "测试联营物料领用现扣",
+		"DJBH": "206",
+		"DJBJ_LGB_OLD": "206",
+		"BJ_WL": "0",
+		"pFY_LGBLIST": [{
+				"DJBH_LGB": "206",
+				"SFXMID": "3000",
+				"JE": "0.5",
+				"FYR": "张三",//费用人，缴费人
+				"PJH": "100009"//票据号
+			}
+		],
+		"pFY_LGB_WLMXLIST": []
+	}
+}
+//按照原有的做，联营分为现扣和货扣，其他方式只有现扣。
+
+物料领用：
+	总务部：
+		经销：
+			现扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"201","FDBH":"1","DJLX":"1","YEARMONTH":"201805","WLDW":"400052","HTH":"10100005","BZ":"测试经销物料领用现扣","DJBH":"201","DJBJ_LGB_OLD":"201","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"201","SFXMID":"3000","JE":"30","FYR":"张三","PJH":"100001"},{"DJBH_LGB":"201","SFXMID":"3001","JE":"8","FYR":"张三","PJH":"100002"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"201","WLBM":"1","WL_NAME":"亚克力A","WLDJ":"","SL":"10"},{"DJBH_LGB":"201","WLBM":"18","WL_NAME":"塑料袋大","WLDJ":"","SL":"10"}]}}
+			货扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"202","FDBH":"1","DJLX":"2","YEARMONTH":"201805","WLDW":"400052","HTH":"10100005","BZ":"测试经销物料领用货扣","DJBH":"202","DJBJ_LGB_OLD":"202","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"202","SFXMID":"3000","JE":"25","FYR":"张三","PJH":"100003"},{"DJBH_LGB":"202","SFXMID":"3001","JE":"13","FYR":"张三","PJH":"100004"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"202","WLBM":"1","WL_NAME":"亚克力A","WLDJ":"","SL":"10"},{"DJBH_LGB":"202","WLBM":"18","WL_NAME":"塑料袋大","WLDJ":"","SL":"10"}]}}
+		联营：
+			现扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"203","FDBH":"1","DJLX":"1","YEARMONTH":"201805","WLDW":"500782","HTH":"30100690","BZ":"测试联营物料领用现扣","DJBH":"203","DJBJ_LGB_OLD":"203","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"203","SFXMID":"3000","JE":"31","FYR":"张三","PJH":"100005"},{"DJBH_LGB":"203","SFXMID":"3001","JE":"7","FYR":"张三","PJH":"100006"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"203","WLBM":"1","WL_NAME":"亚克力A","WLDJ":"","SL":"10"},{"DJBH_LGB":"203","WLBM":"18","WL_NAME":"塑料袋大","WLDJ":"","SL":"10"}]}}
+	质检部：
+		经销：
+			现扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"204","FDBH":"1","DJLX":"1","YEARMONTH":"201805","WLDW":"400052","HTH":"10100005","BZ":"测试经销物料领用现扣","DJBH":"204","DJBJ_LGB_OLD":"204","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"204","SFXMID":"3000","JE":"0.5","FYR":"张三","PJH":"100007"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"204","WLBM":"201","WL_NAME":"标签-3号可剥(A)","WLDJ":"","SL":"10"}]}}
+			货扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"205","FDBH":"1","DJLX":"2","YEARMONTH":"201805","WLDW":"400052","HTH":"10100005","BZ":"测试经销物料领用货扣","DJBH":"205","DJBJ_LGB_OLD":"205","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"205","SFXMID":"3000","JE":"0.5","FYR":"张三","PJH":"100008"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"205","WLBM":"201","WL_NAME":"标签-3号可剥(A)","WLDJ":"","SL":"10"}]}}
+		联营：
+			现扣：{"FUNCNAME":"WRITE_FY_LGB","args":{"DJBH_LGB":"206","FDBH":"1","DJLX":"1","YEARMONTH":"201805","WLDW":"500782","HTH":"30100690","BZ":"测试联营物料领用现扣","DJBH":"206","DJBJ_LGB_OLD":"206","BJ_WL":"0","pFY_LGBLIST":[{"DJBH_LGB":"206","SFXMID":"3000","JE":"0.5","FYR":"张三","PJH":"100009"}],"pFY_LGB_WLMXLIST":[{"DJBH_LGB":"206","WLBM":"201","WL_NAME":"标签-3号可剥(A)","WLDJ":"","SL":"10"}]}}
+
+			
+			
+罚款单：
+    经销：
+		现扣144：
+		现扣165:
+		货扣：
+	联营：
+		现扣144：
+		现扣165:
+入职：
+	现扣(培训费+工牌制作费)：
+	押金(工牌押金):
+
+餐卡申请：
+    押金：
+
+更衣柜申请：
+	押金：
+
+短期转长期：
+	现扣(培训费):
+	
+离职：
+	押金返还：
+			
+			
+			
+			
+			
