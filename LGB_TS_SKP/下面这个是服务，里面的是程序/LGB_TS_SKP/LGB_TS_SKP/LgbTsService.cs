@@ -232,10 +232,10 @@ namespace LGB_TS_SKP
                         {
                             if (hour.ToString() == sjdsz[j].ToString())
                             {//当前时间点 == 数据库中的时间
-                                if (Minute != 10)
-                                {
-                                    return;
-                                }
+                                //if (Minute != 10)
+                                //{
+                                //    return;
+                                //}
 
                                 //找数据库中有没有插入，当前时间点，当前人员，当前报表的信息。
 
@@ -287,7 +287,7 @@ namespace LGB_TS_SKP
 
                                 if (!SHOPCODE.Equals(shopCode2))
                                 {
-                                    //continue;
+                                    continue;
                                 }
 
                                 //根据人员CODE,找openid
@@ -325,7 +325,7 @@ namespace LGB_TS_SKP
                                 if (rMsg != "")
                                 {
                                     LogHelper.Logger.ErrorFormat("查询出错,", _se.Name);
-                                    //return;
+                                    return;
                                 }
                                 if (dtyy.Rows.Count == 0)
                                 {
