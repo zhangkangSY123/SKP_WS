@@ -1,0 +1,13 @@
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\LGB_SKP_FY.dll.config
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\LGB_SKP_FY.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\LGB_SKP_FY.pdb
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\BMCPCommService.Interface.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\DB2012.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\log4net.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\LogServiceHelper.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\Newtonsoft.Json.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\BMCPCommService.Interface.pdb
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\log4net.xml
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\bin\Debug\LogServiceHelper.pdb
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\obj\Debug\LGB_SKP_FY.dll
+E:\bmcp\LGB_SKP_FY\LGB_SKP_FY\obj\Debug\LGB_SKP_FY.pdb
