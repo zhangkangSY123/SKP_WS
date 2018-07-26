@@ -275,7 +275,7 @@ namespace LGB_TS_SKP
                                 if (dtt.Rows.Count == 0)
                                 {
                                     LogHelper.Logger.InfoFormat("没有编号为" + rid + "的报表详细信息!", _se.Name);
-                                    continue;
+                                    //continue;
                                 }
                                 url = dtt.Rows[0]["RURL"].ToString() + "?RQ=" + strT + "%26SJD=" + (hour + "00");//%26为url编码时&符号
                                 shopCode2 = dtt.Rows[0]["SHOPCODE"].ToString();
