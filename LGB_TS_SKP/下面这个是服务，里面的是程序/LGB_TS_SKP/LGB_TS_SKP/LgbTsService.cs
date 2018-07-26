@@ -198,19 +198,19 @@ namespace LGB_TS_SKP
             try
             {
                 //找推送报表的时间点，人员。
-                string selectAllTS = "select RID,CODE,SJD,SHOPCODE from BUCOWNER.BMCP_WeChat_Auth@BUCENTER ";
-                DataTable dt = new DataTable();
-                DB_Center.DB2012Class_GetDataRefTable(selectAllTS, ref rMsg, dt);
-                if (rMsg != "")
-                {
-                    LogHelper.Logger.ErrorFormat("查询推送报表和人员信息出错,", _se.Name);
-                    return;
-                }
-                if (dt.Rows.Count == 0)
-                {
-                    LogHelper.Logger.InfoFormat("没有要推送的报表和人员!", _se.Name);
-                    return;
-                }
+                //string selectAllTS = "select RID,CODE,SJD,SHOPCODE from BUCOWNER.BMCP_WeChat_Auth@BUCENTER ";
+                //DataTable dt = new DataTable();
+                //DB_Center.DB2012Class_GetDataRefTable(selectAllTS, ref rMsg, dt);
+                //if (rMsg != "")
+                //{
+                //    LogHelper.Logger.ErrorFormat("查询推送报表和人员信息出错,", _se.Name);
+                //    return;
+                //}
+                //if (dt.Rows.Count == 0)
+                //{
+                //    LogHelper.Logger.InfoFormat("没有要推送的报表和人员!", _se.Name);
+                //    return;
+                //}
                 int hour = DateTime.Now.Hour;
                 int Minute = DateTime.Now.Minute;
                 string strT = DateTime.Now.ToString("s").Substring(0, DateTime.Now.ToString("s").IndexOf('T'));//2003-09-23 
