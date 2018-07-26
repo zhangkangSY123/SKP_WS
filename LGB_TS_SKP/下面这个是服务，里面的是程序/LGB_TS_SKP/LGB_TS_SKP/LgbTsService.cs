@@ -221,10 +221,10 @@ namespace LGB_TS_SKP
                     string sjd = dt.Rows[i]["SJD"].ToString();//时间点
                     string SHOPCODE = dt.Rows[i]["SHOPCODE"].ToString();//SHOPCODE
                     
-                    if (SHOPCODE == null || SHOPCODE != "000020")
-                    {
-                        continue;
-                    }
+                    //if (SHOPCODE == null || SHOPCODE != "000020")
+                    //{
+                    //    continue;
+                    //}
                     string[] sjdsz = sjd.Split(',');
                     if (sjd != null && sjd != "" && sjdsz.Length > 0)
                     {
@@ -232,10 +232,10 @@ namespace LGB_TS_SKP
                         {
                             if (hour.ToString() == sjdsz[j].ToString())
                             {//当前时间点 == 数据库中的时间
-                                if (Minute != 10)
-                                {
-                                    return;
-                                }
+                                //if (Minute != 10)
+                                //{
+                                //    return;
+                                //}
 
                                 //找数据库中有没有插入，当前时间点，当前人员，当前报表的信息。
 
