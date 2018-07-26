@@ -1,0 +1,27 @@
+c:\users\administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Debug\LGB_TS_SKP.exe.config
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\LGB_TS_SKP.dll.config
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\LGB_TS_SKP.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\LGB_TS_SKP.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\BMCPCommService.Interface.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\DB2012.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\log4net.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\LogServiceHelper.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\BMCPCommService.Interface.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\log4net.xml
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\bin\Release\LogServiceHelper.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.dll
+C:\Users\Administrator\documents\visual studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\LGB_TS_SKP.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\LGB_TS_SKP.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\LGB_TS_SKP.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\BMCPCommService.Interface.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\DB2012.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\LogServiceHelper.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\BMCPCommService.Interface.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\log4net.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\bin\Release\LogServiceHelper.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP - lgb_wx_ts\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\LGB_TS_SKP\LGB_TS_SKP\obj\Debug\LGB_TS_SKP.csprojResolveAssemblyReference.cache
